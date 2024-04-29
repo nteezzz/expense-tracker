@@ -1,0 +1,47 @@
+.expense-container{
+    background-color: #535353;
+    border-radius: 10px;
+    border-color: #b3b3b3;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+li{
+    list-style: none;
+}
+.inner-container{
+    display: flex;
+    flex-direction: row;
+
+}
+ul{
+    padding-inline-start: 0px;
+}
+.date-col{
+    margin-left: 20px;
+}
+.title-col{
+    margin-left: 20px;
+}
+.amount-col{
+    margin-left: auto;
+    margin-right: 20px; 
+}
+.button
+{
+    color: #b3b3b3;
+    border: 1px solid #b3b3b3;
+    border-style: ridge;
+    cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.button:hover
+{
+    background-color: #b3b3b3;
+    color: #535353;
+    border: 1px solid #535353;
+}
